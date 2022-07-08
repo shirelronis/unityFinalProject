@@ -530,8 +530,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quitMenu: {fileID: 605719529}
-  startText: {fileID: 0}
-  exitText: {fileID: 0}
+  startText: {fileID: 2042543273}
+  exitText: {fileID: 1859663949}
 --- !u!114 &622872483
 MonoBehaviour:
   m_ObjectHideFlags: 0
