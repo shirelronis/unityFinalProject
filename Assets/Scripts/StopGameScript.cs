@@ -12,16 +12,16 @@ public class StopGameScript : MonoBehaviour
     void Start()
     {
         Cursor.visible = true;
-        // Debug.Log(PlayerScript.isWin);
-        // if (PlayerScript.isWin) {
-        //     looseText.enabled = false;
-        //     winText.enabled=true;
-        // }
-        // else
-        // {
-        //      winText.enabled=false;
-        //     looseText.enabled = true;
-        // }
+        Debug.Log(PlayerScript.isWin);
+        if (PlayerScript.isWin) {
+            looseText.enabled = false;
+            winText.enabled=true;
+        }
+        else
+        {
+             winText.enabled=false;
+            looseText.enabled = true;
+        }
     }
 
     // Update is called once per frame
