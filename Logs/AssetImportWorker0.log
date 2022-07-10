@@ -745,3 +745,27 @@ Received Import Request.
 Number of updated assets reloaded before import = 0
 Start importing Assets/Scripts/StopGameScript.cs using Guid(8ca220fcd73904b93b3daae0566a8bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba8dec9b483698fd23d16cd75ade72a') in 0.005860 seconds 
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.610043 seconds.
+  path: Assets/Scenes/EndCanvas.unity
+  artifactKey: Guid(e45c9db392fc447e78849f4a9fe70423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/EndCanvas.unity using Guid(e45c9db392fc447e78849f4a9fe70423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0df10ad7630a76beb1c5bce9975b73') in 0.001618 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 292.894946 seconds.
+  path: Assets/utils/loose.jpeg
+  artifactKey: Guid(229b9422964474c0db17eeb92ae16fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/utils/loose.jpeg using Guid(229b9422964474c0db17eeb92ae16fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d971de8910b65951d69d3abedfe204') in 0.200812 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.328939 seconds.
+  path: Assets/utils/loose.jpeg
+  artifactKey: Guid(229b9422964474c0db17eeb92ae16fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/utils/loose.jpeg using Guid(229b9422964474c0db17eeb92ae16fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54064c571f648f2942601a5ab8687dd') in 0.095924 seconds 
+Number of asset objects unloaded after import = 3
