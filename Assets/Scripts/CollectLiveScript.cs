@@ -18,8 +18,10 @@ public class CollectLiveScript : MonoBehaviour
             }
             GameObject player = collision.gameObject;
             PlayerScript pScript = player.GetComponent<PlayerScript>();
-            pScript.playerLives++;
-            Collect();
+            if (pScript.playerLives < 5) {
+                pScript.playerLives++;
+                Collect();
+            }
         }
     }
 
