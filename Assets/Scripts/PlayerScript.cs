@@ -7,7 +7,7 @@ public class PlayerScript : MonoBehaviour
 {
     public int playerSpeed = 5;
     public int playerLives = 3;
-    public int score = 0;
+    // public int score = 0;
     public static bool isWin = true;    
     // public Rigidbody bullet;
 
@@ -34,7 +34,7 @@ public class PlayerScript : MonoBehaviour
 
     public void OnGUI(){
         GUI.Label(new Rect(10f, 10f, 100, 20), "Lives : " + playerLives);
-                GUI.Label(new Rect(10f, 40f, 100, 20), "Score : " + score);
+                // GUI.Label(new Rect(10f, 40f, 100, 20), "Score : " + score);
 
     }
 }

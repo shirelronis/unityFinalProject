@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class EnemyScript : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class EnemyScript : MonoBehaviour
     public int speed = 5;
     private int waypointIndex;
     private float dist;
+    DateTime lastHit = DateTime.Now;
 
     public AudioClip enemyHitSound;
     private const int ENEMY_HIT = 20;
@@ -45,16 +47,29 @@ public class EnemyScript : MonoBehaviour
         transform.LookAt(waypoints[waypointIndex].position);
     }
 
-
-    public void OnTriggerEnter(Collider other)
+    void OnCollisionEnter(Collision collision)
     {
-        playSound();
-        if (other.tag == "Player")
+        if(collision.gameObject.tag == "Player") //We hit player
         {
+            if(DateTime.Now - lastHit < TimeSpan.FromSeconds(2.5))
+                return;
+
+            lastHit = DateTime.Now;
+            GameObject player = collision.gameObject;
+            PlayerScript pScript = player.GetComponent<PlayerScript>();
+            pScript.playerLives--; //Damage player
             ScoringSystemScript.score -= ENEMY_HIT;
+            StartCoroutine(Stay());
         }
     }
 
+    IEnumerator Stay(){
+        Rigidbody rigid = GetComponent<Rigidbody>();
+        rigid.isKinematic = true;
+        yield return new WaitForSeconds(5);
+        rigid.isKinematic = false;
+    }
+    
     void ShootRay()
     {
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward),
