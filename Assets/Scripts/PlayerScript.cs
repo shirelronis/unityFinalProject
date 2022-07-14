@@ -24,7 +24,7 @@ public class PlayerScript : MonoBehaviour
         // float amtToMove=playerSpeed*Input.GetAxis("Horizontal")*Time.deltaTime;
         // transform.Translate(Vector3.right * amtToMove);
 
-        if(Input.GetKey(KeyCode.S))
+        if(Input.GetKey(KeyCode.Q))
         {
             ShootRay();
         }
