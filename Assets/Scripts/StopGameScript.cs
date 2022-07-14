@@ -12,8 +12,8 @@ public class StopGameScript : MonoBehaviour
     void Start()
     {
         Cursor.visible = true;
-        Debug.Log(PlayerScript.isWin);
-        if (PlayerScript.isWin) {
+        Debug.Log(ScoringSystemScript.isWin);
+        if (ScoringSystemScript.isWin) {
             looseText.enabled = false;
             winText.enabled=true;
         }

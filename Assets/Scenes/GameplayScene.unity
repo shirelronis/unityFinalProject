@@ -1418,6 +1418,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2021226514}
   - component: {fileID: 2021226515}
+  - component: {fileID: 2021226516}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -1455,6 +1456,18 @@ MonoBehaviour:
   mainCamera: {fileID: 1309667182}
   fpsCamera: {fileID: 1033192448}
   playerFps: {fileID: 1795343542}
+--- !u!114 &2021226516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021226512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f59f8fe8cf3a8041bf5229036d693a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2099846641
 PrefabInstance:
   m_ObjectHideFlags: 0
