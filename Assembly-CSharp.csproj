@@ -89,6 +89,7 @@
     <Compile Include="Assets\Scripts\MainCameraFollowScript.cs" />
     <Compile Include="Assets\AurynSky\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
     <Compile Include="Assets\Scripts\ScoringSystemScript.cs" />
+    <Compile Include="Assets\Scripts\AgentScript.cs" />
     <Compile Include="Assets\Grass And Flowers Pack 1\Example Scene\SimpleTextureDrawing.cs" />
     <Compile Include="Assets\Scripts\AI\AI.cs" />
     <Compile Include="Assets\Balloon_Ghost\Scripts\Break_Ghost.cs" />
