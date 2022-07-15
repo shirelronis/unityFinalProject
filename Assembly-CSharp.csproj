@@ -86,6 +86,7 @@
     <Compile Include="Assets\Scripts\BulletScript.cs" />
     <Compile Include="Assets\Scripts\AI\FirstState.cs" />
     <Compile Include="Assets\Scripts\EnemyScript.cs" />
+    <Compile Include="Assets\Scripts\SpaceshipScript.cs" />
     <Compile Include="Assets\Scripts\MainCameraFollowScript.cs" />
     <Compile Include="Assets\AurynSky\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
     <Compile Include="Assets\Scripts\ScoringSystemScript.cs" />
