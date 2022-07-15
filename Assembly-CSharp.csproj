@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\RemoveLiveScript.cs" />
     <Compile Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\CTI_CustomWind.cs" />
     <Compile Include="Assets\Scripts\SwitchModeScript.cs" />
+    <Compile Include="Assets\Scripts\AI\SecondState.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\Scripts\WallsScript.cs" />
     <Compile Include="Assets\Scripts\MoveScript.cs" />
@@ -75,16 +76,20 @@
     <Compile Include="Assets\Scripts\CollectSilverScript.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\Scripts\AI\SteeringScript.cs" />
     <Compile Include="Assets\Scripts\FollowScript.cs" />
+    <Compile Include="Assets\Scripts\AI\StateMachine.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
+    <Compile Include="Assets\Scripts\InstructionScript.cs" />
     <Compile Include="Assets\Scripts\MenuScript.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
+    <Compile Include="Assets\Scripts\AI\FirstState.cs" />
     <Compile Include="Assets\Scripts\EnemyScript.cs" />
-    <Compile Include="Assets\Scripts\SteeringScript.cs" />
     <Compile Include="Assets\Scripts\MainCameraFollowScript.cs" />
     <Compile Include="Assets\AurynSky\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
     <Compile Include="Assets\Scripts\ScoringSystemScript.cs" />
     <Compile Include="Assets\Grass And Flowers Pack 1\Example Scene\SimpleTextureDrawing.cs" />
+    <Compile Include="Assets\Scripts\AI\AI.cs" />
     <Compile Include="Assets\Scripts\CollectLiveScript.cs" />
   </ItemGroup>
   <ItemGroup>
