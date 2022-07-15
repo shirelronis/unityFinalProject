@@ -8,7 +8,7 @@ public class InstructionScript : MonoBehaviour
 
     void Start()
     {
-        image.SetActive(false); 
+        image.SetActive(true); 
     }
 
     private void OnTriggerEnter(Collider other)
