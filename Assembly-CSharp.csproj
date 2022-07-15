@@ -90,6 +90,7 @@
     <Compile Include="Assets\Scripts\ScoringSystemScript.cs" />
     <Compile Include="Assets\Grass And Flowers Pack 1\Example Scene\SimpleTextureDrawing.cs" />
     <Compile Include="Assets\Scripts\AI\AI.cs" />
+    <Compile Include="Assets\Balloon_Ghost\Scripts\Break_Ghost.cs" />
     <Compile Include="Assets\Scripts\CollectLiveScript.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -99,6 +100,7 @@
     <None Include="Assets\Conifers [BOTD]\Conifers [BOTD] URP Readme.txt" />
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Resources\CTI_Internal-DeferredShading.shader" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
+    <None Include="Assets\Balloon_Ghost\Documentation\Documentation(Balloon_Ghost).txt" />
     <None Include="Assets\Conifers [BOTD]\Getting started.txt" />
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_BillboardVertex_301.cginc" />
     <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\Includes\CTI_TranslucentLighting_301.cginc" />
