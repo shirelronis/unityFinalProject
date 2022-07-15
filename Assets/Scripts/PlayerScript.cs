@@ -49,8 +49,11 @@ public class PlayerScript : MonoBehaviour
 
     void ShootBullet()
     {
-        Vector3 offset = new Vector3(0,2,0);
-        Instantiate(bullet, transform.position + offset, Quaternion.identity);
+        if(bullet != null)
+        {
+            Vector3 offset = new Vector3(0, 2, 0);
+            Instantiate(bullet, transform.position + offset, Quaternion.identity);
+        }
     }
 
     void playSound()
