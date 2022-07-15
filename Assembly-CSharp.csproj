@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\SwitchModeScript.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\Scripts\WallsScript.cs" />
+    <Compile Include="Assets\Scripts\MoveScript.cs" />
     <Compile Include="Assets\Scripts\StopGameScript.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
@@ -79,6 +80,7 @@
     <Compile Include="Assets\Scripts\MenuScript.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
     <Compile Include="Assets\Scripts\EnemyScript.cs" />
+    <Compile Include="Assets\Scripts\SteeringScript.cs" />
     <Compile Include="Assets\Scripts\MainCameraFollowScript.cs" />
     <Compile Include="Assets\AurynSky\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
     <Compile Include="Assets\Scripts\ScoringSystemScript.cs" />
