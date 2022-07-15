@@ -10,8 +10,6 @@ public class FollowScript : MonoBehaviour
         Vector3 newPosition = player.position;
         newPosition.y = transform.position.y;
         transform.position = newPosition;
-
-         // transform.rotation=Quaternion.Euler(90,player.eulerAngles.y,0f)
     }
 
 }

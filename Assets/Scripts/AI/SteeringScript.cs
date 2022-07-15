@@ -25,7 +25,7 @@ public class SteeringScript : MonoBehaviour
         }
         else
         {
-            currentState = AIState.Idle;
+            currentState = AIState.Pursuit;
         }
 
         switch (currentState)
