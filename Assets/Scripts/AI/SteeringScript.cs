@@ -15,6 +15,13 @@ public class SteeringScript : MonoBehaviour
    
     void Update()
     {
+
+        while (gameObject.transform.position.y > 7)
+        {
+            gameObject.transform.position = new Vector3(gameObject.transform.position.x,
+                gameObject.transform.position.y - 2,
+                gameObject.transform.position.z);
+        }
         if (ScoringSystemScript.score > 100)
         {
             currentState = AIState.Evade;

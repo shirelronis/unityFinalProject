@@ -72,11 +72,12 @@ public class EnemyScript : MonoBehaviour
     
     void ShootRay()
     {
+        Vector3 offset = new Vector3(0,-3,0);
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward),
             out RaycastHit hitInfo, 20f) && hitInfo.collider.tag == "Player")
         {
             Debug.Log("Hit Something");
-            Debug.DrawRay(transform.position,
+            Debug.DrawRay(transform.position + offset,
                 transform.TransformDirection(Vector3.forward) * hitInfo.distance,
                 Color.red);
 
@@ -86,7 +87,7 @@ public class EnemyScript : MonoBehaviour
         else
         {
             Debug.Log("Oops!");
-            Debug.DrawRay(transform.position,
+            Debug.DrawRay(transform.position + offset,
                 transform.TransformDirection(Vector3.forward) * 20f,
                 Color.green);
         }
