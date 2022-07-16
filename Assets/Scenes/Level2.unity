@@ -722,7 +722,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1f6f84484c911a047bad629b5dc25b20, type: 2}
+  - {fileID: 2100000, guid: 3a7631be1fe4b524bb8726f65bc04155, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4342,7 +4342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentSceneIndex: 2
-  numberOfGhostlers: 4
+  numberOfGhostlers: 3
   ShootingSound: {fileID: 8300000, guid: befe24ff2bbce4f45a057ef7a4b59d31, type: 3}
   playerSpeed: 3
   bullet: {fileID: 593214824}
