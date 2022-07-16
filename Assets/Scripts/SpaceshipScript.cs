@@ -15,7 +15,7 @@ public class SpaceshipScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(gameObject.transform.position.y > 10 || gameObject.transform.position.y < 10)
+        if(gameObject.transform.position.z > 60 || gameObject.transform.position.y < -4)
         {
             //losing
             SceneManager.LoadScene(5);
