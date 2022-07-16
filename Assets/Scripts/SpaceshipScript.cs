@@ -18,7 +18,7 @@ public class SpaceshipScript : MonoBehaviour
         if(gameObject.transform.position.y > 10 || gameObject.transform.position.y < 10)
         {
             //losing
-            //SceneManager.LoadScene(1);
+            SceneManager.LoadScene(5);
         }
         
     }
@@ -27,8 +27,12 @@ public class SpaceshipScript : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Player"))
         {
-            //next level
-            //SceneManager.LoadScene(1);
+            NextLevel();
         }
+    }
+
+    private void NextLevel()
+    {
+        SceneManager.LoadScene(2);
     }
 }

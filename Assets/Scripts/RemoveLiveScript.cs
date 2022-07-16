@@ -16,7 +16,6 @@ public class RemoveLiveScript : MonoBehaviour
             {
                 AudioSource.PlayClipAtPoint(collectSound, transform.position);
             }
-            GameObject player = collision.gameObject;
             PlayerScript.playerLives--;
         }
     }

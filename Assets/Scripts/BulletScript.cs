@@ -44,7 +44,7 @@ public class BulletScript : MonoBehaviour
                 Destroy(other);
 
                 //Winning The Game
-                SceneManager.LoadScene(2);
+                SceneManager.LoadScene(4);
             }
         }
     }

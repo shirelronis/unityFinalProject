@@ -20,6 +20,7 @@ public class LosingScript : MonoBehaviour
 
     public void MainMenu()
     {
+        // main manue
         SceneManager.LoadScene(0);
     }
 

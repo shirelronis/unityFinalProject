@@ -3387,6 +3387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b41f7605f7df545b1ad40d477c87b186, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentSceneIndex: 3
   numberOfGhostlers: 6
   ShootingSound: {fileID: 8300000, guid: befe24ff2bbce4f45a057ef7a4b59d31, type: 3}
   playerSpeed: 3

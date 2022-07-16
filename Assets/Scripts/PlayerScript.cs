@@ -6,6 +6,7 @@ using System;
 
 public class PlayerScript : MonoBehaviour
 {
+    public int currentSceneIndex = 1;
     public int numberOfGhostlers = 4;
     public static int killedGhostlers = 0;
     public AudioClip ShootingSound;
@@ -30,7 +31,7 @@ public class PlayerScript : MonoBehaviour
         if (playerLives < 0)
         {
             //losing
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(5);
         }
 
         if (gameObject.transform.position.y < -2)
@@ -42,14 +43,19 @@ public class PlayerScript : MonoBehaviour
 
         if(killedGhostlers >= numberOfGhostlers)
         {
-            //next level
-            SceneManager.LoadScene(2);
+            NextLevel();
         }
 
         if (Input.GetKeyDown(KeyCode.Q))
         {
             ShootBullet();
         }
+    }
+
+    public void NextLevel()
+    {
+        currentSceneIndex++;
+        SceneManager.LoadScene(currentSceneIndex);
     }
 
 
