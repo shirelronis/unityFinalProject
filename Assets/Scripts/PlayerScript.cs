@@ -10,14 +10,15 @@ public class PlayerScript : MonoBehaviour
     public static int killedGhostlers = 0;
     public AudioClip enemyHitSound;
     public int playerSpeed = 5;
-    public int playerLives = 3;
+    public static int playerLives = 3;
     public Rigidbody bullet;
+    private Vector3 startPosition;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        startPosition = gameObject.transform.position;
     }
 
     // Update is called once per frame
@@ -25,6 +26,20 @@ public class PlayerScript : MonoBehaviour
     {
         // float amtToMove=playerSpeed*Input.GetAxis("Horizontal")*Time.deltaTime;
         // transform.Translate(Vector3.right * amtToMove);
+
+        if (playerLives < 0)
+        {
+            //losing
+            SceneManager.LoadScene(3);
+        }
+
+        if (gameObject.transform.position.y < -2)
+        {
+            playerLives--;
+            gameObject.transform.position = startPosition;
+            ScoringSystemScript.score = 0;
+        }
+
         if(killedGhostlers >= numberOfGhostlers)
         {
             //next level
@@ -34,11 +49,6 @@ public class PlayerScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Q))
         {
             ShootBullet();
-        }
-
-        if (playerLives == 0) {
-            SceneManager.LoadScene(2);
-            ScoringSystemScript.isWin = false;
         }
     }
 

@@ -17,8 +17,7 @@ public class RemoveLiveScript : MonoBehaviour
                 AudioSource.PlayClipAtPoint(collectSound, transform.position);
             }
             GameObject player = collision.gameObject;
-            PlayerScript pScript = player.GetComponent<PlayerScript>();
-            pScript.playerLives--;
+            PlayerScript.playerLives--;
         }
     }
 }

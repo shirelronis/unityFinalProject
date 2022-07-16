@@ -11,8 +11,15 @@ public class ScoringSystemScript : MonoBehaviour
 
     void Update()
     {
+        if(score < 0)
+        {
+            PlayerScript.playerLives--;
+            score = 0;
+        }
+
         if (score >= WINNING_SCORE)
         {
+            //winning
             SceneManager.LoadScene(2);
         }
     }

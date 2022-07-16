@@ -56,8 +56,6 @@ public class EnemyScript : MonoBehaviour
 
             lastHit = DateTime.Now;
             GameObject player = collision.gameObject;
-            PlayerScript pScript = player.GetComponent<PlayerScript>();
-            pScript.playerLives--; //Damage player
             ScoringSystemScript.score -= ENEMY_HIT;
             StartCoroutine(Stay());
         }

@@ -17,9 +17,8 @@ public class CollectLiveScript : MonoBehaviour
                 AudioSource.PlayClipAtPoint(collectSound, transform.position);
             }
             GameObject player = collision.gameObject;
-            PlayerScript pScript = player.GetComponent<PlayerScript>();
-            if (pScript.playerLives < 5) {
-                pScript.playerLives++;
+            if (PlayerScript.playerLives < 5) {
+                PlayerScript.playerLives++;
                 Collect();
             }
         }
