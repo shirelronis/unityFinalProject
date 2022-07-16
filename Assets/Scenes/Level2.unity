@@ -413,7 +413,7 @@ MonoBehaviour:
   - {fileID: 2072847221}
   - {fileID: 1695153774}
   speed: 2
-  enemyHitSound: {fileID: 0}
+  enemyHitSound: {fileID: 8300000, guid: 4647c2715a6c33c43ac65bbb50eef12e, type: 3}
 --- !u!65 &149092597
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -463,7 +463,7 @@ MonoBehaviour:
   - {fileID: 935919953}
   - {fileID: 2090331322}
   speed: 2
-  enemyHitSound: {fileID: 0}
+  enemyHitSound: {fileID: 8300000, guid: 4647c2715a6c33c43ac65bbb50eef12e, type: 3}
 --- !u!65 &258835136
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -808,7 +808,7 @@ MonoBehaviour:
   - {fileID: 1679495962}
   - {fileID: 1462592331}
   speed: 2
-  enemyHitSound: {fileID: 0}
+  enemyHitSound: {fileID: 8300000, guid: 4647c2715a6c33c43ac65bbb50eef12e, type: 3}
 --- !u!65 &640061951
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4356,9 +4356,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numberOfGhostlers: 4
-  enemyHitSound: {fileID: 0}
+  ShootingSound: {fileID: 8300000, guid: befe24ff2bbce4f45a057ef7a4b59d31, type: 3}
   playerSpeed: 3
-  playerLives: 3
   bullet: {fileID: 593214824}
 --- !u!1 &1844482860
 GameObject:
@@ -4702,7 +4701,7 @@ MonoBehaviour:
   - {fileID: 12810655}
   - {fileID: 1001006950}
   speed: 2
-  enemyHitSound: {fileID: 0}
+  enemyHitSound: {fileID: 8300000, guid: 4647c2715a6c33c43ac65bbb50eef12e, type: 3}
 --- !u!65 &2009051979
 BoxCollider:
   m_ObjectHideFlags: 0

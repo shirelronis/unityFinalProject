@@ -8,7 +8,7 @@ public class PlayerScript : MonoBehaviour
 {
     public int numberOfGhostlers = 4;
     public static int killedGhostlers = 0;
-    public AudioClip enemyHitSound;
+    public AudioClip ShootingSound;
     public int playerSpeed = 5;
     public static int playerLives = 3;
     public Rigidbody bullet;
@@ -61,6 +61,7 @@ public class PlayerScript : MonoBehaviour
     {
         if(bullet != null)
         {
+            playSound();
             Vector3 offset = new Vector3(0, 2, 0);
             Instantiate(bullet, transform.position + offset, Quaternion.identity);
         }
@@ -68,9 +69,9 @@ public class PlayerScript : MonoBehaviour
 
     void playSound()
     {
-        if (enemyHitSound != null)
+        if (ShootingSound != null)
         {
-            AudioSource.PlayClipAtPoint(enemyHitSound, transform.position);
+            AudioSource.PlayClipAtPoint(ShootingSound, transform.position);
         }
     }
 }

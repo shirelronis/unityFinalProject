@@ -180,7 +180,7 @@ MonoBehaviour:
   - {fileID: 365478817}
   - {fileID: 1768460693}
   speed: 5
-  enemyHitSound: {fileID: 0}
+  enemyHitSound: {fileID: 8300000, guid: 4647c2715a6c33c43ac65bbb50eef12e, type: 3}
 --- !u!65 &130355899
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -536,7 +536,7 @@ MonoBehaviour:
   - {fileID: 2098182594}
   - {fileID: 386002197}
   speed: 2
-  enemyHitSound: {fileID: 0}
+  enemyHitSound: {fileID: 8300000, guid: 4647c2715a6c33c43ac65bbb50eef12e, type: 3}
 --- !u!65 &285217443
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -849,7 +849,7 @@ MonoBehaviour:
   - {fileID: 818095226}
   - {fileID: 125835136}
   speed: 2
-  enemyHitSound: {fileID: 0}
+  enemyHitSound: {fileID: 8300000, guid: 4647c2715a6c33c43ac65bbb50eef12e, type: 3}
 --- !u!65 &451858593
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1555,7 +1555,7 @@ MonoBehaviour:
   - {fileID: 1788481710}
   - {fileID: 1792765319}
   speed: 2
-  enemyHitSound: {fileID: 0}
+  enemyHitSound: {fileID: 8300000, guid: 4647c2715a6c33c43ac65bbb50eef12e, type: 3}
 --- !u!65 &687232978
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3388,7 +3388,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numberOfGhostlers: 6
-  enemyHitSound: {fileID: 0}
+  ShootingSound: {fileID: 8300000, guid: befe24ff2bbce4f45a057ef7a4b59d31, type: 3}
   playerSpeed: 3
   bullet: {fileID: 838132968}
 --- !u!195 &786864201
@@ -6426,7 +6426,7 @@ MonoBehaviour:
   - {fileID: 2030686130}
   - {fileID: 1675338809}
   speed: 2
-  enemyHitSound: {fileID: 0}
+  enemyHitSound: {fileID: 8300000, guid: 4647c2715a6c33c43ac65bbb50eef12e, type: 3}
 --- !u!65 &2068336896
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6744,7 +6744,7 @@ MonoBehaviour:
   - {fileID: 1736280686}
   - {fileID: 1614889718}
   speed: 2
-  enemyHitSound: {fileID: 0}
+  enemyHitSound: {fileID: 8300000, guid: 4647c2715a6c33c43ac65bbb50eef12e, type: 3}
 --- !u!65 &2126058559
 BoxCollider:
   m_ObjectHideFlags: 0
