@@ -10,11 +10,15 @@ public class CollectSilverScript : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (collectSound != null)
+        if(other.gameObject.tag == "Player") //We hit player
         {
-            AudioSource.PlayClipAtPoint(collectSound, transform.position);
+            if (collectSound != null)
+            {
+                AudioSource.PlayClipAtPoint(collectSound, transform.position);
+            }
+            ScoringSystemScript.score += SILVER_BONUS;
+            Destroy(gameObject);
         }
-        ScoringSystemScript.score += SILVER_BONUS;
-        Destroy(gameObject);
+        
     }
 }
