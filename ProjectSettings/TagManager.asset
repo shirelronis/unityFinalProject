@@ -8,6 +8,7 @@ TagManager:
   - Silver
   - Gold
   - Enemy
+  - GhostlerMaster
   layers:
   - Default
   - TransparentFX
