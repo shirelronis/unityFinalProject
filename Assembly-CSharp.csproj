@@ -66,6 +66,7 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\Scripts\WallsScript.cs" />
     <Compile Include="Assets\Scripts\MoveScript.cs" />
+    <Compile Include="Assets\Scripts\GhostlerMasterScript.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerScript.cs" />

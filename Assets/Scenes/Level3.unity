@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -128,21 +128,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4187144168491269354, guid: db22502f7e763c441afb7962d6b19d22, type: 3}
   m_PrefabInstance: {fileID: 576483922}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &130355898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130355895}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e2876d2843b6a04f98dce688e70b48a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  waypoints: []
-  speed: 5
-  enemyHitSound: {fileID: 8300000, guid: 4647c2715a6c33c43ac65bbb50eef12e, type: 3}
 --- !u!65 &130355899
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -199,6 +184,20 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &130355904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130355895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 760372d400f5de847a535184c493995a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  enemyHitSound: {fileID: 8300000, guid: 4647c2715a6c33c43ac65bbb50eef12e, type: 3}
 --- !u!1 &144236927
 GameObject:
   m_ObjectHideFlags: 0
@@ -905,9 +904,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4187144168491269354, guid: db22502f7e763c441afb7962d6b19d22, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 130355898}
-    - targetCorrespondingSourceObject: {fileID: 4187144168491269354, guid: db22502f7e763c441afb7962d6b19d22, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 130355899}
     - targetCorrespondingSourceObject: {fileID: 4187144168491269354, guid: db22502f7e763c441afb7962d6b19d22, type: 3}
       insertIndex: -1
@@ -915,6 +911,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4187144168491269354, guid: db22502f7e763c441afb7962d6b19d22, type: 3}
       insertIndex: -1
       addedObject: {fileID: 130355900}
+    - targetCorrespondingSourceObject: {fileID: 4187144168491269354, guid: db22502f7e763c441afb7962d6b19d22, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 130355904}
   m_SourcePrefab: {fileID: 100100000, guid: db22502f7e763c441afb7962d6b19d22, type: 3}
 --- !u!1 &614926482
 GameObject:
@@ -3862,7 +3861,7 @@ SpriteRenderer:
   m_Size: {x: 9.31, y: 9.31}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &941098775
