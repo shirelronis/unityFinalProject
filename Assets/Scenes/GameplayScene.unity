@@ -3628,9 +3628,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numberOfGhostlers: 4
-  enemyHitSound: {fileID: 0}
+  ShootingSound: {fileID: 8300000, guid: befe24ff2bbce4f45a057ef7a4b59d31, type: 3}
   playerSpeed: 3
-  playerLives: 3
   bullet: {fileID: 0}
 --- !u!1 &1795757139
 GameObject:

@@ -61,9 +61,9 @@ public class PlayerScript : MonoBehaviour
     {
         if(bullet != null)
         {
-            playSound();
             Vector3 offset = new Vector3(0, 2, 0);
             Instantiate(bullet, transform.position + offset, Quaternion.identity);
+            playSound();
         }
     }
 
