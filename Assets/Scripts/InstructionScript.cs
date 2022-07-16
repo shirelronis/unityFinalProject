@@ -5,10 +5,9 @@ using UnityEngine;
 public class InstructionScript : MonoBehaviour
 {
     public GameObject image;
-
     void Start()
     {
-        image.SetActive(true); 
+        image.SetActive(false); 
     }
 
     private void OnTriggerEnter(Collider other)
