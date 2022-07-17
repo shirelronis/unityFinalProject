@@ -16,9 +16,13 @@ ScriptsOnlyBuild:
     - AgentScript
     - AnimationScript
     - BulletScript
+    - CollectGoldScript
     - CollectLiveScript
+    - CollectSilverScript
     - EnemyScript
+    - FollowPlayersEyesScript
     - FollowScript
+    - GhostlerMasterScript
     - InstructionScript
     - LosingScript
     - MainCameraFollowScript
@@ -159,39 +163,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7976}
     - Class: 114
-      Script: {instanceID: 8050}
+      Script: {instanceID: 8052}
     - Class: 114
-      Script: {instanceID: 8080}
-    - Class: 114
-      Script: {instanceID: 8120}
+      Script: {instanceID: 8082}
     - Class: 114
       Script: {instanceID: 8122}
     - Class: 114
-      Script: {instanceID: 8140}
+      Script: {instanceID: 8124}
     - Class: 114
-      Script: {instanceID: 8218}
+      Script: {instanceID: 8142}
     - Class: 114
       Script: {instanceID: 8220}
     - Class: 114
-      Script: {instanceID: 8332}
+      Script: {instanceID: 8222}
     - Class: 114
-      Script: {instanceID: 8398}
+      Script: {instanceID: 8334}
     - Class: 114
-      Script: {instanceID: 8446}
+      Script: {instanceID: 8400}
     - Class: 114
-      Script: {instanceID: 8512}
+      Script: {instanceID: 8414}
     - Class: 114
-      Script: {instanceID: 8580}
+      Script: {instanceID: 8450}
     - Class: 114
-      Script: {instanceID: 8594}
+      Script: {instanceID: 8516}
     - Class: 114
-      Script: {instanceID: 8596}
+      Script: {instanceID: 8584}
     - Class: 114
-      Script: {instanceID: 8644}
+      Script: {instanceID: 8598}
     - Class: 114
-      Script: {instanceID: 8646}
+      Script: {instanceID: 8600}
     - Class: 114
-      Script: {instanceID: 8710}
+      Script: {instanceID: 8648}
+    - Class: 114
+      Script: {instanceID: 8650}
+    - Class: 114
+      Script: {instanceID: 8714}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 134
@@ -308,31 +314,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8028}
     - Class: 114
-      Script: {instanceID: 8050}
+      Script: {instanceID: 8052}
     - Class: 114
-      Script: {instanceID: 8080}
+      Script: {instanceID: 8082}
     - Class: 114
-      Script: {instanceID: 8122}
+      Script: {instanceID: 8124}
     - Class: 114
-      Script: {instanceID: 8140}
+      Script: {instanceID: 8128}
     - Class: 114
-      Script: {instanceID: 8162}
+      Script: {instanceID: 8142}
     - Class: 114
-      Script: {instanceID: 8220}
+      Script: {instanceID: 8164}
     - Class: 114
-      Script: {instanceID: 8332}
+      Script: {instanceID: 8222}
     - Class: 114
-      Script: {instanceID: 8446}
+      Script: {instanceID: 8414}
     - Class: 114
-      Script: {instanceID: 8460}
+      Script: {instanceID: 8450}
     - Class: 114
-      Script: {instanceID: 8498}
+      Script: {instanceID: 8464}
     - Class: 114
-      Script: {instanceID: 8644}
+      Script: {instanceID: 8502}
     - Class: 114
-      Script: {instanceID: 8646}
+      Script: {instanceID: 8648}
     - Class: 114
-      Script: {instanceID: 8710}
+      Script: {instanceID: 8650}
+    - Class: 114
+      Script: {instanceID: 8714}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 134
@@ -421,21 +429,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8028}
     - Class: 114
-      Script: {instanceID: 8080}
+      Script: {instanceID: 8038}
     - Class: 114
-      Script: {instanceID: 8140}
+      Script: {instanceID: 8082}
     - Class: 114
-      Script: {instanceID: 8220}
+      Script: {instanceID: 8124}
     - Class: 114
-      Script: {instanceID: 8446}
+      Script: {instanceID: 8142}
     - Class: 114
-      Script: {instanceID: 8498}
+      Script: {instanceID: 8222}
+    - Class: 114
+      Script: {instanceID: 8430}
+    - Class: 114
+      Script: {instanceID: 8450}
     - Class: 114
       Script: {instanceID: 8502}
     - Class: 114
-      Script: {instanceID: 8646}
+      Script: {instanceID: 8506}
     - Class: 114
-      Script: {instanceID: 8710}
+      Script: {instanceID: 8650}
+    - Class: 114
+      Script: {instanceID: 8714}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 134
@@ -506,7 +520,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5560}
     - Class: 114
-      Script: {instanceID: 8242}
+      Script: {instanceID: 8244}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -563,7 +577,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5560}
     - Class: 114
-      Script: {instanceID: 8658}
+      Script: {instanceID: 8662}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -618,7 +632,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5560}
     - Class: 114
-      Script: {instanceID: 8458}
+      Script: {instanceID: 8462}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1646,6 +1660,12 @@ ScriptsOnlyBuild:
     className: EnemyScript
   - hash:
       serializedVersion: 2
+      Hash: 6c27b1f13cfc63d7e31613f307a52072
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FollowPlayersEyesScript
+  - hash:
+      serializedVersion: 2
       Hash: ace789461a9e9f39bc210f6186cbbc94
     assemblyName: Assembly-CSharp-firstpass
     namespaceName: UnityStandardAssets.Cameras
@@ -1890,6 +1910,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass
     namespaceName: UnityStandardAssets.Utility
     className: TimedObjectDestructor
+  - hash:
+      serializedVersion: 2
+      Hash: f8c5b99f5273e1f83781756396b90598
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GhostlerMasterScript
   - hash:
       serializedVersion: 2
       Hash: 9b435b63b68b129981f31f3162c35393
