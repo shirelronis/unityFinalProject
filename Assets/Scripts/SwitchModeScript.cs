@@ -11,7 +11,7 @@ public class SwitchModeScript : MonoBehaviour {     // Empty GameObjectGameMa
 
 	void Update () { 
 		//Controll Shooting 
-		if(Input.GetKey("q"))
+		if(Input.GetKey("e"))
 		{
 			// playerFps.GetComponent<Rigidbody>().isKinematic = false;
 			// boat.GetComponent<BoatScript>().enabled = true;
@@ -19,14 +19,9 @@ public class SwitchModeScript : MonoBehaviour {     // Empty GameObjectGameMa
 			fpsCamera.SetActive(true);
 			// playerFps.SetActive(false);
 		}
-		else
-        {
-			fpsCamera.SetActive(false);
-			mainCamera.SetActive(true);
-		}
 
 		//Controll Fps
-		if(Input.GetKey("2"))
+		if(Input.GetKey("r"))
 		{
 			// playerFps.GetComponent<Rigidbody>().isKinematic = true;
 			// boat.GetComponent<BoatScript>().enabled = false;
